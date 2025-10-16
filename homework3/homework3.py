@@ -13,7 +13,7 @@ def area_of_circle(radius):
 #4.1
 def subtract(a, b):
     return a - b
-print(subtract(2,1))
+
 def multiply(a, b):
     return a * b
 

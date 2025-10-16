@@ -10,20 +10,6 @@
 
 # Hint: You can use .isalpha() to check if a character is a letter.
 
-def counting_vowels_and_consonants(string):
-    vowels = "aeiouAEIOU"
-    num_vowels = 0
-    num_consonants = 0
-
-    for char in string:
-        if char.isalpha():
-            if char in vowels:
-                num_vowels += 1
-            else:
-                num_consonants += 1
-
-    return (num_vowels, num_consonants)
-
 
 # --- 2. Average Vowels ---
 # Write a return function that takes in a paragraph (string) as input.
@@ -46,6 +32,19 @@ paragraph = (
 
 # Write descriptive print statements, with f-strings, that output the average vowels and consonants per sentence of the paragraph. 
 
+def counting_vowels_and_consonants(string):
+    vowels = "aeiouAEIOU"
+    num_vowels = 0
+    num_consonants = 0
+
+    for char in string:
+        if char.isalpha():
+            if char in vowels:
+                num_vowels += 1
+            else:
+                num_consonants += 1
+
+    return (num_vowels, num_consonants)
 
 def average_vowels_and_consonants(paragraph):
     sentences = []
