@@ -1,0 +1,21 @@
+1.List 5 topics related to astronomy, physics, technology, science or math that sound interesting
+to you.
+Light, Supernovae, Blackbodies, Magnetism, Exoplanets
+
+2. For three of these topics, find a dataset, tool, news article, or paper online that relates to it.
+Summarize how each source relates to the topic in your own words.
+
+1. Blackbodies:  Real solar spectral data is available from NREL or similar.
+2. Supernovae and Light: package - shock_cooling_curve https://arxiv.org/html/2312.15585v2 helps to model the light fading so we can estimate things like radius, mass, and shock velocity.
+3. Exoplanets: NASA Exoplanet Archive
+
+
+3. Choose one topic and brainstorm how you could Python skills (loops, conditionals, functions,
+lists/dictionaries, github, version control) to explore, analyze or create something with it.
+Blackbody: using Python, numpy, matplotlib. Download the real solar spectrum, plot it in Python, generate theoretical blackbody curve using Planck’s Law, and compare.
+
+4. Write down at least two possible project ideas connected to your topic. One should be
+ambitious (a “dream” version) and the other should be smaller, simpler version that you
+could realistically finish in a few weeks.
+Blackbody Radiation: Compare the Solar Spectrum to Planck’s Law Prediction
+Perhaps make a game relating to blackbodies (dream version)
